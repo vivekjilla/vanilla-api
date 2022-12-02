@@ -22,7 +22,7 @@ jobs:
         id: builddeploy
         uses: Azure/static-web-apps-deploy@latest
         env:
-          FUNCTION_LANGUAGE: "node"
+          FUNCTION_LANGUAGE: node
           FUNCTION_LANGUAGE_VERSION: 14
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_ZEALOUS_HILL_09B8B0421 }}
