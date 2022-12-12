@@ -24,7 +24,7 @@ jobs:
         env:
           VERBOSE: true
           FUNCTION_LANGUAGE: node
-          FUNCTION_LANGUAGE_VERSION: 14
+          FUNCTION_LANGUAGE_VERSION: 16
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_WHITE_WAVE_04BAF1610 }}
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
